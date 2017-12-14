@@ -1,5 +1,42 @@
-.image {
+nav.navigation {
+    margin: auto;
+    width: 100%;
+    background: #696d69;
+    height: 70px;
+}
+nav.navigation ul {
     text-align: center;
+}
+nav.navigation ul li {
+    display: inline;
+    padding: 30px;
+}
+nav.navigation ul li img {
+    vertical-align: middle;
+}
+a.nav-font {
+    font-style: normal;
+    font-family: "HP Simplified Light";
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    vertical-align: middle;
+}
+a.nav-font:link {
+    text-decoration: none
+    #ffffff
+}
+a.nav-font:visited {
+    color: white;
+    text-decoration: none;
+}
+a.nav-font:hover {
+    color: #41de45;
+    text-shadow: lightgrey;
+}
+div.image {
+    text-align: center;
+    width: 100%;
 }
 main {
     width: 1000px;
