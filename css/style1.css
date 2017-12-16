@@ -1,18 +1,22 @@
+body {
+    margin-top: 0px;
+}
 nav.navigation {
-    margin: auto;
     width: 100%;
     background: #696d69;
     height: 70px;
 }
 nav.navigation ul {
     text-align: center;
+    padding: 0px;
+    margin: 0px;
 }
 nav.navigation ul li {
     display: inline;
     padding: 30px;
 }
 nav.navigation ul li img {
-    vertical-align: middle;
+    margin: auto;
 }
 a.nav-font {
     font-style: normal;
